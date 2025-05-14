@@ -1,0 +1,31 @@
+PUSH UP COUNTER PROJECT:
+
+PHASE 1: TRAINING PHASE:
+
+
+
+
+--------------------------------------------------------------------------------------------------
+PHASE 2: RUNNING PHASE: 
+Step 1. python -m venv venv + venv\Scripts\activate (Windows)
+
+Step 2. pip install opencv-python numpy ultralytics  (installed after activate virtual environment)
+
+Step 3. Run model
+
+
+You can modify settings in config.py to adjust:
+
+* Detection confidence threshold
+* Push-up detection angle thresholds
+* Display options
+* Buffer sizes for smoothing
+
+Chạy bằng webcam.    
+python pushup_counter.py --source 0 --output output.mp4
+
+Chạy với source Video
+python pushup_counter.py --source path/to/video.mp4 --output output.mp4
+
+Chạy không GUI
+python pushup_counter.py --source 0 --output output.mp4 --no-gui
