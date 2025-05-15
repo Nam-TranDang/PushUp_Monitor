@@ -1,25 +1,15 @@
 PUSH UP COUNTER PROJECT:
 
 PHASE 1: TRAINING PHASE:
-
-
-
+Training on Kaggle model YOLO11n-POSE from Ultralytics with Dataset COCO-POSE.
 
 --------------------------------------------------------------------------------------------------
 PHASE 2: RUNNING PHASE: 
-Step 1. python -m venv venv + venv\Scripts\activate (Windows)
+Step 1. python -m venv venv + venv\Scripts\activate (Windows) - Set up Venv for Python
 
 Step 2. pip install opencv-python numpy ultralytics  (installed after activate virtual environment)
 
-Step 3. Run model
-
-
-You can modify settings in config.py to adjust:
-
-* Detection confidence threshold
-* Push-up detection angle thresholds
-* Display options
-* Buffer sizes for smoothing
+Step 3. Run model with 1 in 3 command:
 
 Chạy bằng webcam.    
 python pushup_counter.py --source 0 --output output.mp4
